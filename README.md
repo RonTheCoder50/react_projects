@@ -26,9 +26,9 @@ This repo contains multiple mini React applications I’ve built to strengthen m
   npm start
 
 ### 🧠 How to Use This Repository
-step-1: Clone this repository: git clone https://github.com/RonTheCoder50/react_projects.git
-step-2: Navigate into any project folder you want to explore.
-step-3: npm install
+- step-1: Clone this repository: git clone https://github.com/RonTheCoder50/react_projects.git
+- step-2: Navigate into any project folder you want to explore.
+- step-3: npm install
         npm start
 
 --- i will add more react projects soon & Major projects also when i completly built that projects, then i definetly publish soon!!
