@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    @apply bg-white/80 hover:bg-white hover:shadow-sm h-18 rounded-sm flex justify-center items-center;
+}
+
+.btn2 {
+    @apply bg-white/5 hover:bg-white/10 hover:shadow-sm h-18 rounded-sm flex justify-center items-center;
+}
