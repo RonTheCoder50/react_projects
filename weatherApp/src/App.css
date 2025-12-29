@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+* {
+    font-family: 'poppins';
+}
+
+.custom_animation_1 {
+    animation: all 2s infinite 0.25s;
+    animation-play-state: running;
+    animation-fill-mode: both;
+
+    transition: all 1s ease-in-out 0.075s;
+    animation-name: swing;
+}
+
+.custom_animation_1:hover {
+    animation-play-state: paused;
+}
+
+.smooth {
+    @apply transition-all delay-75 duration-200 ease-linear;
+}
+
+@keyframes swing {
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+
+    25% {
+        transform: translateY(4px) scale(1);
+    }
+
+    50% {
+        transform: translateY(0px) scale(1);
+    }
+
+    100%{
+        transform: translateY(-4px) scale(1);
+    }
+}
