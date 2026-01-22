@@ -6,7 +6,7 @@ import InputGroup from './mainHelper';
 import { ThemeContext } from './context';
 
 let key = '9a6f88364ecc4ccd982124145250811';
-let url = 'http://api.weatherapi.com/v1';
+let url = 'https://api.weatherapi.com/v1';
 
 // export const ThemeContext = createContext(null);
 
