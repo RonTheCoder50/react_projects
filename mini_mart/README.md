@@ -13,4 +13,4 @@ dark/light theme & responsive ui
 - Backend / DB: dumyjson api (an external api integration for products)
 - Deployment: Vercel (frontend)
 
-### Live: https://ecommerce-site-smoky.vercel.app
+Live: https://ecommerce-site-smoky.vercel.app
